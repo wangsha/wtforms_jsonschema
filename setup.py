@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from os import path
 import os
 
-version = "0.7.0"
+
 
 here = path.abspath(path.dirname(__file__))
 
@@ -20,7 +20,7 @@ extras = {
 
 setup(
     name="wtforms_jsonschema2",
-    version=version.version,
+    version='0.7.0',
     description="Package to convert WTForms to JSON Schema",
     long_description=long_description,
     long_description_content_type='text/markdown',
