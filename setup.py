@@ -1,18 +1,15 @@
 from setuptools import setup, find_packages
 # To use a consistent encoding
 from os import path
-import codecs
-import imp
 import os
 
-version = imp.load_source('version', os.path.join('wtforms_jsonschema2',
-                                                  'version.py'))
+version = 0.7.0
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the README file
-with codecs.open('README.md') as f:
-    long_description = f.read()
+
+
+long_description = ""
 
 extras = {
     'fab': ['Flask-AppBuilder>=1.13.0', 'pillow'],
